@@ -13,6 +13,6 @@ jobs:
       - name: 'Test'
         id: test
         uses: ./
-	with:
-	  file: 't'
-          api: 'o'
+        with:
+          file: 'junit.xml'
+          api_key: ${{ secrets.API_KEY }}

@@ -15,4 +15,14 @@ inputs:
 #    description: 'Latest tag'
 runs:
   using: 'node12'
-  main: 'index.js'
+  main: 'dist/index.js'
+
+# runs:
+#   using: 'composite'
+#   steps:
+#     # If it's a commit
+#     - name: list files
+#       shell: bash
+#       run: |
+#         ls -R .
+#         ls -R /

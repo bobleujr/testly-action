@@ -1,24 +1,26 @@
 {
-  "name": "Testly Action",
-  "version": "1.0.0",
-  "description": "Publish unit test results to be used with Testly (chrome ext.)",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bobleujr/testly-action.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bobleujr/testly-action/issues"
-  },
-  "homepage": "https://github.com/bobleujr/testly-action#readme",
-  "dependencies": {
-    "@actions/core": "^1.6.0",
-    "@actions/github": "^5.0.1"
-  }
+    "name": "Testly Action",
+    "version": "1.0.0",
+    "description": "Publish unit test results to be used with Testly (chrome ext.)",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/bobleujr/testly-action.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/bobleujr/testly-action/issues"
+    },
+    "homepage": "https://github.com/bobleujr/testly-action#readme",
+    "dependencies": {
+        "@actions/core": "^1.6.0",
+        "@actions/github": "^5.0.1",
+        "@vercel/ncc": "^0.33.3",
+        "axios": "^0.26.1"
+    }
 }
